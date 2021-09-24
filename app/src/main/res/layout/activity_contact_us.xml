@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@color/boysenberry"
+        android:text="CONTACT US"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <GridView
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:id="@+id/contact_grid"
+        android:layout_width="wrap_content"
+        tools:listitem="@layout/custome_contact"
+        android:layout_height="wrap_content"
+        android:numColumns="2"/>
+</LinearLayout>

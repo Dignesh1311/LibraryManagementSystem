@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Book_essus_form"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Dark"
+        android:text="APPLICATION FOR BOOK"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/in_date"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="SELECT DATE" />
+
+    </LinearLayout>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="*Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Name :-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+
+            android:editable="false"
+            android:id="@+id/getNameforBook"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="Email :-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:editable="false"
+            android:id="@+id/getEmailforBook"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="Phone :-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:editable="false"
+            android:id="@+id/getPhoneforBook"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="Enrollment number:-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/enterEnrollment"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/Dark"
+        android:layout_marginTop="20dp"
+        android:text="*Material Requested:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Book Name:" />
+
+        <EditText
+            android:id="@+id/B_name"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Author Name:" />
+
+        <EditText
+            android:id="@+id/Book_essus_oth"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+
+            android:id="@+id/Agree"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+    <TextView
+        android:textStyle="bold"
+        android:text="You agree to the lending policy below when requesting the resources and it is your responsibility to return the material in good condition. We recommend you return material through a carrier that can tract the package to prevent loss."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+ <LinearLayout
+
+     android:layout_gravity="center"
+     android:layout_marginTop="20dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+     <Button
+         android:id="@+id/Request_essu_book"
+         android:text="Request"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+     <Button
+         android:layout_marginLeft="8dp"
+         android:id="@+id/Cancel_Request"
+         android:text="Cancel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+ </LinearLayout
+     >
+
+</LinearLayout>

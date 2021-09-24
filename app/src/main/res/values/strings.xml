@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E-library</string>
+    <string name="navigation_drawer_open">open navigation Drawer</string>
+    <string name="navigation_drawer_close">close navigation Drawer</string>
+    <string-array name="Book_name">
+        <item>Python</item>
+        <item>Android</item>
+        <item>Block Chain Network</item>
+        <item>Computer Network</item>
+        <item>Ethicle Hacking</item>
+        <item>SE_UML</item>
+    </string-array>
+</resources>

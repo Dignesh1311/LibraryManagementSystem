@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    android:padding="10dp"
+    >
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@color/boysenberry"
+        android:text="PROFILE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/User_icon"
+        android:src="@drawable/icon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/Pick_image"
+        android:text="PICK IMAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Name:-"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text=""
+            android:id="@+id/get_StudentName"
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Emai:-"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/get_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Phone:-"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:text=""
+            android:id="@+id/get_Phone"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:text="ADD PHOTO"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
