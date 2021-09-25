@@ -1,2 +1,6 @@
 # LibraryManagementSystem
 E-Library
+:Itwasanandroidbasedapplicationjustlikelibrarybookissuesfor
+studentcanrequestthebookandlibrariancanacceptorrejectrequest,Librarian
+managingcommontaskofitlikemanagebooks,bookrequest,bookissuesform
+etc.
